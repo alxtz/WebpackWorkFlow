@@ -1,0 +1,52 @@
+@import './scss/keys.scss';
+@import './scss/fonts.scss';
+
+html
+{
+    font-size: 10px;
+
+    background: url(../Release/assets/images/background.jpg) bottom center;
+    background-size: cover;
+}
+
+body,
+html
+{
+    font-family: sans-serif;
+
+    margin: 0;
+    padding: 0;
+}
+
+h1.rocks
+{
+    position: fixed;
+    top: 50px;
+
+    display: block;
+
+    width: 100%;
+
+    text-align: center;
+
+    p
+    {
+        display: inline-block;
+
+        color: rgb(28, 97, 215);
+    }
+
+    i
+    {
+        font-size: 25px;
+
+        color: rgb(246, 62, 62);
+    }
+}
+
+div.someDropdown
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+}

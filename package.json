@@ -1,0 +1,16 @@
+{
+  "name": "6.CombineAll",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Alex Tzeng <alxtz.tw@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^2.5.1"
+  },
+  "dependencies": {
+    "css-loader": "^0.28.1",
+    "file-loader": "^0.11.1",
+    "script-loader": "^0.7.0",
+    "style-loader": "^0.17.0"
+  }
+}

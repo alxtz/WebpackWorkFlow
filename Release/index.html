@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <title>Document</title>
+
+        <script src="build.js"></script>
+
+    </head>
+
+    <body>
+
+        <h1 class="rocks">
+            <i class="fa fa-music" aria-hidden="true"></i>
+            <p> Keyboard Rocks ! </p>
+            <i class="fa fa-volume-up" aria-hidden="true"></i>
+        </h1>
+
+        <div class="keys">
+            <div data-key="65" class="key">
+                <kbd>A</kbd>
+                <span class="sound">clap</span>
+            </div>
+            <div data-key="83" class="key">
+                <kbd>S</kbd>
+                <span class="sound">hihat</span>
+            </div>
+            <div data-key="68" class="key">
+                <kbd>D</kbd>
+                <span class="sound">kick</span>
+            </div>
+            <div data-key="70" class="key">
+                <kbd>F</kbd>
+                <span class="sound">openhat</span>
+            </div>
+            <div data-key="71" class="key">
+                <kbd>G</kbd>
+                <span class="sound">boom</span>
+            </div>
+            <div data-key="72" class="key">
+                <kbd>H</kbd>
+                <span class="sound">ride</span>
+            </div>
+            <div data-key="74" class="key">
+                <kbd>J</kbd>
+                <span class="sound">snare</span>
+            </div>
+            <div data-key="75" class="key">
+                <kbd>K</kbd>
+                <span class="sound">tom</span>
+            </div>
+            <div data-key="76" class="key">
+                <kbd>L</kbd>
+                <span class="sound">tink</span>
+            </div>
+        </div>
+
+        <div class="dropdown someDropdown">
+            <button class="btn btn-primary dropdown-toggle" id="menu1"
+                    type="button" data-toggle="dropdown">
+                Dropdown Example
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
+                <li role="presentation" class="divider"></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
+            </ul>
+        </div>
+
+    </body>
+
+</html>
