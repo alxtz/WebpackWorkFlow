@@ -65,6 +65,33 @@ module.exports = {
                         loader: "file-loader?name=[name].[ext]&outputPath=assets/fonts/"
                     }
                 ]
+            },
+
+            // For Babel and JShint
+            {
+                test: /\.js$/,
+                exclude: [/node_modules/],
+                use: [
+                    {
+                        loader: 'babel-loader',
+                        options: {
+                            presets: ['es2015']
+                        }
+                    }
+                ]
+            },
+            {
+                test: /\.js$/,
+                enforce: "pre",
+                exclude: [/node_modules/, /libs/],
+                use: [
+					{
+						loader: "jshint-loader",
+                        options: {
+                            esversion: 6
+                        }
+					}
+				]
             }
 
         ]
